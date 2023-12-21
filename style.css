@@ -1,112 +1,146 @@
 *{
-    margin: 0;
-    padding: 0;
-    font-family: Helvetica;
-    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+ 
+ 
 }
-h1,
-h2,
-h3{
-    color: #333;
+
+body{
+ background-color: rgb(212, 139, 3);
 }
-p{
-    color:rgb(181, 167, 146)
+ 
+h1,h2,h3,h4,h5{
+   color: rgb(41, 40, 40);
 }
-.navbar-container{
-    width: 100%;
-    height: 80px;
-    background-color: black;
-    padding: 0 2rem;
-}
-.logo{
-    width: 50px;
-    margin-top: 15px;
-}
-.navbar-itens{
-    position: absolute;
-    right: 30px;
-    height: 80px;
-    margin: 0;
-    display: inline-block;
-    margin-top: 40px;
-}
-.navbar-itens  li{
-    display: inline-block;
-    text-transform: uppercase;
-    margin-left: 25px;
-    position: relative;
-}
-.navbar-itens a{
-    color: aliceblue;
-    text-decoration: none;
-    transition: 0.5s;
-    position: relative;
-}
-.navbar-itens a:hover{
-    color:#ccc
+p, label{
+color: #313131;
 
 }
-.default-btn{
-    padding: 15px 20px;
-    background-color: rgb(89, 192, 89);
-    border-radius: 5px;
+
+
+ input{
+   border: none;
+   border: 1px solid #b0b0a3;
+   padding: 10px 0;
+  
+ }
+
+ input[type="text"],
+ input[type="number"],
+ input[type="file"],
+ input[type="date"],
+ textarea {
+   width:400px;
+   margin-bottom: 20px;
+ }
+textarea{
+   padding: 10px 5px;
+   margin-left: 30px;
 }
-.navbar-itens .default-btn:hover{
-    background-color: rgb(125, 206, 125);
-    color: aliceblue;
+input{
+   margin-left: 30px;
 }
-.main-banner{
-    background-image: url(./assets/mainbanner.png);
-    background-size: cover;
-    background-position: center;
-    padding: 10rem 0;
-    
+.header{
+ height: 150px;
+ padding: 20px;
+ background-image: url(./assets/92b83644-debf-4e79-bd95-5ce1f385c860.jpeg);
+ background-size: cover;
+ background-position: center;
 }
-.main-banner h1,
-.main-banner p{
-    color: rgb(246, 246, 234);
-    text-align: center;
-    font-weight: bold;
-    text-shadow: #0d0c0c 3px 2px 3px;
+.header h3{
+   margin-top: 0;
+   font-weight: bold;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 25px;
+   color:white;
+   text-transform: uppercase;
+   -webkit-text-stroke: 2px #313131;
+   
+  
+   
 }
-.main-banner h1{
-    font-size: 54px;
+.form-container{
+   background-color: #fdfdfd;
+   width: 60%;
+   margin: 0 auto;
+   position: relative;
+   top: -62px;
+  
+}
+.form-header{
+   border-bottom: 1px solid #fdfdfd;
+   height: 45px;
+}
+
+
+
+h1{
+   border-top: 1px solid #dfd99b ;
+   
+}   
+p, label{
+   margin-left: 30px;
+   margin-top: 20px;
+   
+}
+
+.required-field{
+   color: red;
+}
+.form-header p{ 
+   text-align: center;
+   font-size: 18px;
+   border-bottom:  3px solid #dfd99b;
+   margin: 0 auto;
+   width:200px;
+   text-transform: uppercase;
+   height: 45px;
+   line-height:45px;
+   
+}
+.form-body{
+   padding: 30px;
+}
+.form-title{
+   margin-bottom: 15px;
+   padding-top: 15px;
+   
 
 }
-.main-banner p{
-   font-size: 25px;   
+.form-body p{
+   margin-bottom: 20px;
 }
-.services-container{
-    padding: 5rem 0;
-
+.box-input{
+   margin-bottom: 35px;
+   
 }
-.services-container ul{
-    display: flex;
-    width: 90%
-    margin: 0 auto;
+.block{
+   display:block;
 }
-.services-container li{
-    flex: 1 1 200px;
-    list-style: none;
-    text-align: center;
-    padding: 20px;
+.option-box{
+   display: inline-block;
+   margin: 0 30px 30px 0;
 }
-.fas{
-    font-size: 60px;
-    margin-bottom: 15px;
+.optional-list li{
+   list-style: none;
+   margin-bottom: 5px;
 }
-.fa-shield-alt{
-    color: rgb(7, 177, 7);
+.box-input p{
+margin-bottom: 15px;
 }
-.fa-rocket{
-    color: rgb(215, 9, 9);
+.bnt-submit{
+   background-color: #e5bc06;
+   color: #363434;
+   border: 2px solid transparent;
+   width: 150px;
+   height: 50px;
+   cursor: pointer;
+   text-transform: uppercase;
+   transition: 0.5s;
 }
-.fa-comments{
-    color: rgb(219, 219, 97)
-}
-.services-container h3{
-    margin-bottom: 25px;
-}
-.services-container p{
-    line-height: 24px;
+.bnt-submit:hover{
+   background-color: #dfe0d8;
+   border: 3px solid #e5bc06;
+   color: #e5bc06;
 }
